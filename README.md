@@ -20,3 +20,5 @@ Repositório com minha evolução nos estudos para me tornar analista de dados, 
 - [ ] Python com pandas
 - [ ] Dashboard no Power BI ou Looker Studio
 - [ ] Projeto completo
+
+## - `aula04_agregacoes.sql` — DISTINCT, COUNT, SUM, AVG, MIN, MAX e ROUND
