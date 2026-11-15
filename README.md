@@ -14,3 +14,9 @@ Repositório com minha evolução nos estudos para me tornar analista de dados, 
 - SQL (SQLite)
 - Git e GitHub
 - VS Code
+
+## Próximos passos
+- [ ] SQL: GROUP BY, JOIN e subconsultas
+- [ ] Python com pandas
+- [ ] Dashboard no Power BI ou Looker Studio
+- [ ] Projeto completo
