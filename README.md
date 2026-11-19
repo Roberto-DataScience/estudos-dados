@@ -13,6 +13,7 @@ Repositório com minha evolução nos estudos para me tornar analista de dados, 
  - `aula05_like_between_group_by.sql` — LIKE, BETWEEN e GROUP BY
  - `aula06_having.sql` — HAVING, WHERE vs HAVING e ticket médio
  - `aula07_joins.sql` — INNER JOIN, LEFT JOIN e a pegadinha do COUNT
+ - `aula08_subconsultas_cte.sql` — subconsultas (IN, NOT IN) e CTEs com WITH
 ## Ferramentas
 
 - SQL (SQLite)
