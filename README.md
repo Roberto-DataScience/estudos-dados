@@ -14,6 +14,7 @@ Repositório com minha evolução nos estudos para me tornar analista de dados, 
  - `aula06_having.sql` — HAVING, WHERE vs HAVING e ticket médio
  - `aula07_joins.sql` — INNER JOIN, LEFT JOIN e a pegadinha do COUNT
  - `aula08_subconsultas_cte.sql` — subconsultas (IN, NOT IN) e CTEs com WITH
+ - `aula09_case_when.sql` — CASE WHEN, classificação em faixas e pivotagem com SUM(CASE)
 ## Ferramentas
 
 - SQL (SQLite)
@@ -22,7 +23,7 @@ Repositório com minha evolução nos estudos para me tornar analista de dados, 
 
 ## Próximos passos
 
-- [ ] SQL: GROUP BY, JOIN e subconsultas
+- [x] SQL: GROUP BY, JOIN e subconsultas
 - [ ] Python com pandas
 - [ ] Dashboard no Power BI ou Looker Studio
 - [ ] Projeto completo
