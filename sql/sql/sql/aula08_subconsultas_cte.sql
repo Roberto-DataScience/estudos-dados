@@ -60,3 +60,25 @@ SELECT produto,
        ROUND(lucro * 100.0 / (SELECT SUM(lucro) FROM lucro_produto), 2) AS percentual_lucro
 FROM lucro_produto
 ORDER BY lucro DESC;
+-- =============================================
+-- Revisão A: produtos cadastrados que nunca foram vendidos (Webcam)
+SELECT produto
+FROM produtos
+WHERE produto NOT IN (SELECT produto FROM vendas);
+
+-- Variação: produtos que foram vendidos pelo menos uma vez (só troca NOT IN por IN)
+SELECT produto
+FROM produtos
+WHERE produto IN (SELECT produto FROM vendas);
+
+-- Revisão B: produtos com unidades vendidas acima da média (Mouse)
+WITH unidades_produto AS (
+    SELECT produto,
+           SUM(quantidade) AS unidades
+    FROM vendas
+    GROUP BY produto
+)
+SELECT *
+FROM unidades_produto
+WHERE unidades > (SELECT AVG(unidades) FROM unidades_produto)
+ORDER BY unidades DESC;
